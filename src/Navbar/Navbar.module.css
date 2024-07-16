@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ nav{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    /* flex-direction: row; */
+    /* position: fixed;
+    background-color: #fff; */
+    width: 100%;
+    /* margin-top: -50px; */
+    /* overflow: hidden; */
+ }
+nav img{
+    height: 44px;
+    margin-left: 35px;
+}
+nav h1{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav div{
+    /* border: 2px solid purple; */
+    height: 100px;
+    width: 50%;
+}
+
+div ul{
+    /* border: 2px solid orangered; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    font-size: 25px;
+}
+
+div ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: #162D52;
+    font-size: 18px;
+}
+
+div ul li .button{
+    height: 50px;
+    width: 150px;
+    /* margin-right: 20px; */
+    font-size: 15px;
+    color: white;
+    background-color: #f27f3d;
+    border-style: none;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+div ul li button:hover{
+    transition: 0.5s ease;
+    background-color: #162D52;    
+}
+nav ul li :hover{
+    color: #f27f3d;
+    transition: 0.5s ease;
+}
+ul li button:hover{
+    color: white;
+} 
+
